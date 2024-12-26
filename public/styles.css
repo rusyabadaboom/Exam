@@ -1,0 +1,68 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f4f4f4;  
+    color: #333;  
+}  
+
+header {  
+    background-color: #007bff;  
+    color: white;  
+    padding: 20px 0;  
+    text-align: center;  
+}  
+
+h1 {  
+    margin: 0;  
+}  
+
+nav {  
+    margin-top: 10px;  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline; /* Размещаем элементы в одну строку */  
+    margin-right: 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+nav ul li a:hover {  
+    text-decoration: underline; /* Подчеркивание при наведении */  
+}  
+
+.container {  
+    max-width: 1200px;  
+    margin: 0 auto;  
+    padding: 20px;  
+}  
+
+.images {  
+    display: flex;  
+    justify-content: space-between;  
+    margin: 20px 0;  
+}  
+
+.images img {  
+    width: 32%; /* Устанавливаем ширину для картинок */  
+    border-radius: 8px;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 20px;  
+    background-color: #007bff;  
+    color: white;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}
